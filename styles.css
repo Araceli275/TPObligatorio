@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    text-shadow: antiquewhite;
+    font-family: serif;
+
+}
+header{
+    background-color: palevioletred;
+    color:papayawhip;
+    padding: 0.7%;
+    border-radius: 5vw;
+}
+.container{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+   
+}
+.item{
+    background-color: rgb(161, 159, 159);
+    margin: 0.5%; 
+    padding: 1%;
+    border-radius: 10vw; 
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containerb{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 150%;
+    justify-content: center;
+}
+.bitem{    
+    width: 150%;
+    margin: 0.5%;
+    border: 0.1vw solid gray;
+    padding: 1vw;
+    text-align: end;
+    background-color: pink;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
